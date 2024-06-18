@@ -13,18 +13,6 @@ global.confirmCode = ""
 global.owner = [
   ['+79011033947', '👑 Mystic - Creador 👑', true],
   ['+79011033947', '💫 Mystic - Collaborator 2 💫', true],
-  ['+79011033947', '💫 Mystic - Collaborator 3 💫', true],
-  ['+79011033947', '💫 Mystic - Collaborator 4 💫', true],
-  ['+79011033947', '💫 Mystic - Collaborator 5 💫', true],
-  ['+79011033947', '💫 Mystic - Collaborator 6 💫', true],
-  ['+79011033947', '💫 Mystic - Rey Endymion 💫', false],
-  ['+79011033947', '💫 Mystic - Collaborator 8 💫', true],
-  ['+79011033947', '💫 Mystic - By Alba070503 💫', true],
-  ['+79011033947','💫 Mystic - Tester Fabri115💫', true],
-  ['+79011033947'],
-  ['+79011033947'],
-  ['+79011033947'],
-  ['+79011033947'],
 ];
 
 global.suittag = ['+79011033947'];
