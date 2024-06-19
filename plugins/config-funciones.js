@@ -166,8 +166,8 @@ ${tradutor.texto24[3]}
 
 --------------------------------
 
-${tradutor.texto25[0]} | ANTISPAM
-${tradutor.texto25[1]} ${usedPrefix + command} antispam
+${tradutor.texto25[0]} | АНТИСПАМ
+${tradutor.texto25[1]} ${usedPrefix + command} антиспам
 ${tradutor.texto25[2]}
 ${tradutor.texto25[3]}
 
@@ -427,7 +427,7 @@ ${tradutor.texto27[3]}`.trim();
       }
       bot.modejadibot = isEnable;
       break;
-    case 'antispam':
+    case 'антиспам':
       isAll = true;
       if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
