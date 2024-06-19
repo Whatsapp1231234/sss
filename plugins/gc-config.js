@@ -10,8 +10,8 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     'close': 'announcement',
     'abierto': 'not_announcement',
     'cerrado': 'announcement',
-    'закрыть': 'not_announcement',
-    'открыть': 'announcement',
+    'открыть': 'not_announcement',
+    'закрыть': 'announcement',
   }[(args[0] || '')];
   if (isClose === undefined) {
     throw `
