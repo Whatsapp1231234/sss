@@ -13,6 +13,6 @@ const handler = async (m, {conn, text, isROwner, isOwner}) => {
 };
 handler.help = ['setwelcome <text>'];
 handler.tags = ['group'];
-handler.command = ['setwelcome'];
+handler.command = ['приветствие'];
 handler.admin = true;
 export default handler;

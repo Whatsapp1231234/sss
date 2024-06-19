@@ -43,11 +43,26 @@ ${tradutor.texto1[2]}
 ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
- 
+ сброситьссылку
+прощание
+описание
+название
 
 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
   `.trim();
 
 
