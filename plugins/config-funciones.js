@@ -54,8 +54,8 @@ ${tradutor.texto7[2]}
 
 --------------------------------
 
-${tradutor.texto8[0]} RESTRICT
-${tradutor.texto8[1]} ${usedPrefix + command} restrict
+${tradutor.texto8[0]} ОГРАНИЧИТЬ
+${tradutor.texto8[1]} ${usedPrefix + command} ограничить
 ${tradutor.texto8[2]}
 ${tradutor.texto8[3]}
 --------------------------------
@@ -146,8 +146,8 @@ ${tradutor.texto21[2]}
 
 --------------------------------
 
-${tradutor.texto22[0]} | ANTIDELETE
-${tradutor.texto22[1]} ${usedPrefix + command} antidelete
+${tradutor.texto22[0]} | АНТИУДАЛЕНИЕ
+${tradutor.texto22[1]} ${usedPrefix + command} антиудаление
 ${tradutor.texto22[2]}
 
 --------------------------------
@@ -159,24 +159,10 @@ ${tradutor.texto23[3]}
 
 --------------------------------
 
-${tradutor.texto24[0]} | MODOIA
-${tradutor.texto24[1]} ${usedPrefix + command} modoia
-${tradutor.texto24[2]}
-${tradutor.texto24[3]}
-
---------------------------------
-
 ${tradutor.texto25[0]} | АНТИСПАМ
 ${tradutor.texto25[1]} ${usedPrefix + command} антиспам
 ${tradutor.texto25[2]}
 ${tradutor.texto25[3]}
-
---------------------------------
-
-${tradutor.texto26[0]} | MODEJADIBOT
-${tradutor.texto26[1]} ${usedPrefix + command} modejadibot
-${tradutor.texto26[2]} (${usedPrefix}serbot / ${usedPrefix}jadibot). 
-${tradutor.texto26[3]}
 
 --------------------------------
 
@@ -255,7 +241,7 @@ ${tradutor.texto27[3]}`.trim();
       }
       chat.delete = isEnable;
       break;
-    case 'antidelete':
+    case 'антиудаление':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -335,7 +321,7 @@ ${tradutor.texto27[3]}`.trim();
       }
       chat.audios = isEnable;
       break;
-    case 'restrict':
+    case 'ограничить':
       isAll = true;
       if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
