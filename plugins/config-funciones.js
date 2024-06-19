@@ -9,8 +9,8 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
 
 const optionsFull = `_*${tradutor.texto1[0]}*_\n 
 
-${tradutor.texto1[1]}  | WELCOME"
-${tradutor.texto1[2]} ${usedPrefix + command} welcome
+${tradutor.texto1[1]}  | ПРИВЕТСТВИЕ"
+${tradutor.texto1[2]} ${usedPrefix + command} приветствие
 ${tradutor.texto1[3]}
 
 --------------------------------
@@ -28,15 +28,15 @@ ${tradutor.texto3[2]}
 
 --------------------------------
 
-${tradutor.texto4[0]} | ANTILINK
-${tradutor.texto4[1]} ${usedPrefix + command} antilink
+${tradutor.texto4[0]} | АНТИССЫЛКА
+${tradutor.texto4[1]} ${usedPrefix + command} антиссылка
 ${tradutor.texto4[2]}
 ${tradutor.texto4[3]}
 
 --------------------------------
 
-${tradutor.texto5[0]} 🔗 | ANTILINK 2
-${tradutor.texto5[1]}  ${usedPrefix + command} antilink2
+${tradutor.texto5[0]} 🔗 | АНТИССЫЛКА 2
+${tradutor.texto5[1]}  ${usedPrefix + command} антиссылка2
 ${tradutor.texto5[2]}
 ${tradutor.texto5[3]}
 
@@ -67,14 +67,14 @@ ${tradutor.texto9[3]}
 
 --------------------------------
 
-${tradutor.texto10[0]} | AUDIOS
-${tradutor.texto10[1]} ${usedPrefix + command} audios
+${tradutor.texto10[0]} | АУДИО
+${tradutor.texto10[1]} ${usedPrefix + command} аудио
 ${tradutor.texto10[2]}
 
 --------------------------------
 
-${tradutor.texto11[0]} | AUTOSTICKER
-${tradutor.texto11[1]} ${usedPrefix + command} autosticker 
+${tradutor.texto11[0]} | АВТОСТИКЕР
+${tradutor.texto11[1]} ${usedPrefix + command} автостикер 
 ${tradutor.texto11[2]}
 
 --------------------------------
@@ -120,15 +120,15 @@ ${tradutor.texto17[3]}
 
 --------------------------------
 
-${tradutor.texto18[0]} | ANTIARABES
-${tradutor.texto18[1]} ${usedPrefix + command} antiarabes
+${tradutor.texto18[0]} | АНТИАРАБ
+${tradutor.texto18[1]} ${usedPrefix + command} антиараб
 ${tradutor.texto18[2]}
 ${tradutor.texto18[3]}
 
 --------------------------------
 
-${tradutor.texto19[0]} | ANTIARABES 2
-${tradutor.texto19[1]}  ${usedPrefix + command} antiarabes2
+${tradutor.texto19[0]} | АНТИАРАБ 2
+${tradutor.texto19[1]}  ${usedPrefix + command} антиараб2
 ${tradutor.texto19[2]} 
 ${tradutor.texto19[3]} 
 
@@ -185,14 +185,14 @@ ${tradutor.texto27[1]} ${usedPrefix + command} antiprivado
 ${tradutor.texto27[2]}
 ${tradutor.texto27[3]}`.trim();
 
-  const isEnable = /true|enable|(turn)?on|1/i.test(command);
+  const isEnable = /true|включить|(turn)?on|1/i.test(command);
   const chat = global.db.data.chats[m.chat];
   const user = global.db.data.users[m.sender];
   const bot = global.db.data.settings[conn.user.jid] || {};
   const type = (args[0] || '').toLowerCase();
   let isAll = false; const isUser = false;
   switch (type) {
-    case 'welcome':
+    case 'приветствие':
       if (!m.isGroup) {
         if (!isOwner) {
           global.dfail('group', m, conn);
@@ -272,7 +272,7 @@ ${tradutor.texto27[3]}`.trim();
       }
       global.opts['self'] = !isEnable;
       break;
-    case 'antilink':
+    case 'антиссылка':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -281,7 +281,7 @@ ${tradutor.texto27[3]}`.trim();
       }
       chat.antiLink = isEnable;
       break;
-    case 'antilink2':
+    case 'антиссылка2':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -326,7 +326,7 @@ ${tradutor.texto27[3]}`.trim();
       }
       chat.autosticker = isEnable;
       break;
-    case 'audios':
+    case 'аудио':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
@@ -461,7 +461,7 @@ break;
       }
       chat.antiTraba = isEnable;
       break;
-    case 'antiarabes':
+    case 'антиараб':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn); 
@@ -470,7 +470,7 @@ break;
       }
       chat.antiArab = isEnable;
       break;
-    case 'antiarabes2':
+    case 'антиараб2':
       if (m.isGroup) {
         if (!(isAdmin || isROwner || isOwner)) {
           global.dfail('admin', m, conn);
@@ -486,5 +486,5 @@ break;
   conn.sendMessage(m.chat, {text: `_*${tradutor.texto28[0]}*_\n\n*${tradutor.texto28[1]}* _${type}_ *fue* ${isEnable ? '_activada_' : '_desactivada_'} *${tradutor.texto28[2]}* ${isAll ? '_bot._' : isUser ? '' : '_chat._'}`}, {quoted: m});
   //conn.sendMessage(m.chat, {text: `▢ *Opción:* ${type}\n\n▢ *Estado:* ${isEnable ? 'Activado' : 'Desactivado'}\n\n▢ *Para* ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`}, {quoted: m});
 };
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
+handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?[01])$/i;
 export default handler;
