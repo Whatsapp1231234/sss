@@ -10,8 +10,8 @@ const handler = async (m, {conn, args, usedPrefix, command}) => {
     'close': 'announcement',
     'abierto': 'not_announcement',
     'cerrado': 'announcement',
-    'abrir': 'not_announcement',
-    'cerrar': 'announcement',
+    'закрыть': 'not_announcement',
+    'открыть': 'announcement',
   }[(args[0] || '')];
   if (isClose === undefined) {
     throw `
@@ -27,7 +27,7 @@ ${tradutor.texto1[1]}
 };
 handler.help = ['group open / close', 'grupo abrir / cerrar'];
 handler.tags = ['group'];
-handler.command = /^(group|grupo)$/i;
+handler.command = /^(группу|grupo)$/i;
 handler.admin = true;
 handler.botAdmin = true;
 export default handler;

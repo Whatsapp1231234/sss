@@ -50,7 +50,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
 предуприждения
 снести
 админ
-
+внимание
 
 
 
