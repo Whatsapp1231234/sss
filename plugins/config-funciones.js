@@ -166,8 +166,8 @@ ${tradutor.texto25[3]}
 
 --------------------------------
 
-${tradutor.texto27[0]} | ANTIPRIVADO
-${tradutor.texto27[1]} ${usedPrefix + command} antiprivado
+${tradutor.texto27[0]} | АНТИЛИЧКА
+${tradutor.texto27[1]} ${usedPrefix + command} антиличка
 ${tradutor.texto27[2]}
 ${tradutor.texto27[3]}`.trim();
 
@@ -397,7 +397,7 @@ ${tradutor.texto27[3]}`.trim();
       }
       bot.antiCall = isEnable;
       break;
-    case 'antiprivado':
+    case 'антиличка':
       isAll = true;
       if (!(isROwner || isOwner)) {
         global.dfail('owner', m, conn);
