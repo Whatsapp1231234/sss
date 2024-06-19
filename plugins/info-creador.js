@@ -12,30 +12,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const text = `${tradutor.texto1[0]}
 
   ${tradutor.texto1[1]}
-
-  ${tradutor.texto1[2]}
-
-  ${tradutor.texto1[3]}
-
-  ${tradutor.texto1[4]}
-
-  ${tradutor.texto1[5]}
-
-  ${tradutor.texto1[6]}
-
-  ${tradutor.texto1[7]}
-
-  ${tradutor.texto1[8]}
-
-  ${tradutor.texto1[9]}
-
-  ${tradutor.texto1[10]}
-
-  ${tradutor.texto1[11]}
-
-  ${tradutor.texto1[12]}
-  
-  ${tradutor.texto1[13]}`.trim();
+`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,
@@ -46,13 +23,13 @@ const handler = async (m, {conn, usedPrefix}) => {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/BrunoSobrino/TheMystic-Bot-MD',
+        'mediaUrl': 'https://github.com',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': tradutor.texto2[1],
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'https://www.youtube.com/channel/UCSTDMKjbm-EmEovkygX-lCA'}},
+        'sourceUrl': 'https://www.youtube.com'}},
     'caption': text,
     'footer': wm,
     // 'buttons':[
@@ -63,5 +40,5 @@ const handler = async (m, {conn, usedPrefix}) => {
 };
 handler.help = ['owner', 'creator'];
 handler.tags = ['info'];
-handler.command = /^(owner|creator|creador|propietario)$/i;
+handler.command = /^(создатель|creator|creador|propietario)$/i;
 export default handler;

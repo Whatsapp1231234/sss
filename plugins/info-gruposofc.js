@@ -10,16 +10,7 @@ const handler = async (m, {conn, usedPrefix}) => {
   const document = doc[Math.floor(Math.random() * doc.length)];
   const text = `${tradutor.texto1[0]}
 
-${tradutor.texto1[1]}
-${tradutor.texto1[2]}
-
-${tradutor.texto1[3]}
-
-${tradutor.texto1[4]}
-
-${tradutor.texto1[5]}
-
-${tradutor.texto1[6]}`.trim();
+`.trim();
   const buttonMessage= {
     'document': {url: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`},
     'mimetype': `application/${document}`,

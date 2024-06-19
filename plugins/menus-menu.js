@@ -61,7 +61,7 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
 инфогруппы
 ссылка
 датьадмина
-
+создатель
 
 
 
