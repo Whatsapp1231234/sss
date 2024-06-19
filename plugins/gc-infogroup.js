@@ -31,16 +31,16 @@ ${tradutor.texto1[7]}
 ${listAdmin}
 
 ${tradutor.texto1[8]} 
-${tradutor.texto1[9]}  ${welcome ? '✅' : '❌'}
+${tradutor.texto1[9]}  ${приветствие ? '✅' : '❌'}
 ${tradutor.texto1[10]}  ${detect ? '✅' : '❌'} 
 ${tradutor.texto1[11]}  ${detect2 ? '✅' : '❌'} 
-${tradutor.texto1[12]}  ${antiLink ? '✅' : '❌'} 
-${tradutor.texto1[13]}  ${antiLink2 ? '✅' : '❌'} 
+${tradutor.texto1[12]}  ${антиссылка ? '✅' : '❌'} 
+${tradutor.texto1[13]}  ${aантиссылка2 ? '✅' : '❌'} 
 ${tradutor.texto1[14]}  ${modohorny ? '✅' : '❌'} 
-${tradutor.texto1[15]}  ${autosticker ? '✅' : '❌'} 
-${tradutor.texto1[16]}  ${audios ? '✅' : '❌'} 
+${tradutor.texto1[15]}  ${автостикер ? '✅' : '❌'} 
+${tradutor.texto1[16]}  ${аудио ? '✅' : '❌'} 
 ${tradutor.texto1[17]}  ${antiviewonce ? '✅' : '❌'} 
-${tradutor.texto1[18]}  ${antidelete ? '✅' : '❌'} 
+${tradutor.texto1[18]}  ${антиудаление ? '✅' : '❌'} 
 ${tradutor.texto1[19]}  ${antiToxic ? '✅' : '❌'} 
 ${tradutor.texto1[20]}  ${antiTraba ? '✅' : '❌'} 
 ${tradutor.texto1[21]}  ${modoadmin ? '✅' : '❌'} 
