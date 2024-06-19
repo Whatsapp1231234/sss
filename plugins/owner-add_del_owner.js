@@ -26,6 +26,6 @@ const handler = async (m, { conn, text, args, usedPrefix, command }) => {
       break;
   }
 };
-handler.command = /^(addowner|delowner)$/i;
+handler.command = /^(добавитьсоздателя|delowner)$/i;
 handler.rowner = true;
 export default handler;
