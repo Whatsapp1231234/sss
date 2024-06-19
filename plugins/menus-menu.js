@@ -102,7 +102,8 @@ ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌')
     conn.reply(m.chat, tradutor.texto1[29], m);
   }
 };
-handler.command = /^(меню|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
+handler.customPrefix = /м|@/i;
+handler.command = /^(еню|menú|memu|memú|help|info|comandos|allmenu|2help|menu1.2|ayuda|commands|commandos|cmd)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
