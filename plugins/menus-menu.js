@@ -49,15 +49,6 @@ ${tradutor.texto1[8]} ${joincount}
 ${tradutor.texto1[9]} ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
  ${readMore}
 
- ${tradutor.texto1[10]}
-  
-  ▢ _${usedPrefix}menuaudios_
-  ▢ _${usedPrefix}menuanimes_
-  ▢ _${usedPrefix}labiblia_ (🔞)
-  ▢ _${usedPrefix}lang_ ${tradutor.texto2}
-  ▢ _${usedPrefix}langgroup_ ${tradutor.texto3}
-  ▢ _${usedPrefix}glx_ ${tradutor.texto4 /** Este menú permanecerá aquí por un corto tiempo, hasta que la gente sepa */}
-
  
   ${tradutor.texto1[11]}
 
