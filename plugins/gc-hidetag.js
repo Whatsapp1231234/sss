@@ -13,7 +13,7 @@ const handler = async (m, {conn, text, participants, isOwner, isAdmin}) => {
     await conn.relayMessage(m.chat, msg.message, {messageId: msg.key.id});
   } catch {
     /**
-[ By @NeKosmic || https://github.com/NeKosmic/ ]
+[ By @NeKosmic || https://github.com/ ]
 **/
 
     const users = participants.map((u) => conn.decodeJid(u.id));
