@@ -4,7 +4,7 @@
 /*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
 /*     —◉ DESAROLLADO POR OTOSAKA:                       */
 /*     ◉ Otosaka (https://github.com/6otosaka9)          */
-/*     ◉ Número: wa.me/+7702763560                       */
+/*     ◉ Número: wa.me/+77072763560                       */
 /*                                                       */
 /*     —◉ FT:                                            */
 /*     ◉ BrunoSobrino (https://github.com/BrunoSobrino)  */
