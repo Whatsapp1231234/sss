@@ -19,11 +19,11 @@ global.suittag = ['+7702763560'];
 global.prems = ['+7702763560.'];
 
 global.packname = 'Sticker';
-global.author = 'The Mystic - Bot';
-global.wm = 'The Mystic - Bot';
-global.titulowm = 'The Mystic - Bot';
-global.titulowm2 = `The Mystic - Bot`
-global.igfg = 'The Mystic - Bot';
+global.author = 'Ванилька - Bot';
+global.wm = 'Ванилька Bot';
+global.titulowm = 'Ванилька - Bot';
+global.titulowm2 = `Ванилька - Bot`
+global.igfg = 'Ванилька Bot';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
