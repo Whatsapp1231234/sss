@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Whatsapp1231234/222",
+  "homepage": "https://github.com/Whatsapp1231234/sss",
   "author": {
     "name": "BrunoSobrino"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Whatsapp1231234/222.git"
+    "url": "git+https://github.com/Whatsapp1231234/sss.git"
   },
   "bugs": {
-    "url": "https://github.com/Whatsapp1231234/222/issues"
+    "url": "https://github.com/Whatsapp1231234/sss/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
